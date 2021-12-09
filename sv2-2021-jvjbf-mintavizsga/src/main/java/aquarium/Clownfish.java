@@ -6,8 +6,4 @@ public class Clownfish extends Fish {
         super(name, weight, color);
     }
 
-    @Override
-    public void feed() {
-        this.weight++;
-    }
 }
